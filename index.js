@@ -57,7 +57,7 @@ By : ${chalk.red('CopyRight by @Only_NoRealss')}
       const crown = data.User.Crowns;
 
 console.log(chalk.blue(`\r[ ${moment().format('HH:mm:ss')} ] | ${chalk.green(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)} |`));
-      await sleep(5000);
+      await sleep(6000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
